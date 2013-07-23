@@ -1,0 +1,1447 @@
+//--> uncomment (and move?) WHAT IS YOUR MOVE ? S
+
+traders.exe
+
+
+              **********   STAR TRADERS   **********
+
+
+
+            THE CLASSIC GAME WRITTEN BY S.J. SINGER
+
+
+
+?
+HOW MANY PLAYERS  (2-4)  ? 2
+
+
+DOES ANY PLAYER NEED INSTRUCTIONS  ? n
+?
+PLAYER         1             WHAT IS YOUR NAME  ? andrew
+PLAYER         2             WHAT IS YOUR NAME  ? alex
+
+alex IS THE FIRST PLAYER TO MOVE.
+
+// So we know who is first, and in this case, the order followed, but will it always?
+// Maybe not, so look ahead in the script and enter here.
+[order=alex|andrew]
+
+?
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  .  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  .  .  .  .  .  .  .
+          4   .  .  .  .  .  .  *  .  .  .  .  .
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  .  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 H  1 H  9 G  4 I  9 A
+
+WHAT IS YOUR MOVE ? 7H
+
+// no cpy formed so no buy prompts
+[BOUGHT 0 SHARES IN ALTAIR]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  .  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  .  .  .  .  .  .  .
+          4   .  .  .  .  .  .  *  .  .  .  .  .
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 3 F  1 D  3 L  2 K  1 C
+
+WHAT IS YOUR MOVE ? 3F
+?
+
+[BOUGHT 0 SHARES IN ALTAIR]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  .  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  .  .  .  .
+          4   .  .  .  .  .  .  *  .  .  .  .  .
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 1 F  7 G  2 L  9 I  6 K
+ WHAT IS YOUR MOVE ? 1F
+?
+
+[BOUGHT 0 SHARES IN ALTAIR]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  +  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  .  .  .  .
+          4   .  .  .  .  .  .  *  .  .  .  .  .
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 3 C  3 L  4 A  3 I  6 J
+
+WHAT IS YOUR MOVE ? 3I
+?
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'ALTAIR STARWAYS'
+
+
+
+
+
+YOUR CURRENT CASH= $ 6150
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 600
+    YOU NOW OWN  5 ? 1
+?
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  +  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  .  .  .  .
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 J  4 H  3 D  6 J  3 C
+
+[4J]
+
+ BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 600
+    YOU NOW OWN  0 ? 1
+?
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  +  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  .  +  .  .
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 1 H  3 C  4 L  6 A  2 J
+
+ WHAT IS YOUR MOVE ? 4L
+?
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'BETELGEUSE,LTD.'
+
+
+
+
+
+YOUR CURRENT CASH= $ 5880
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 600
+    YOU NOW OWN  6 ? 1
+
+BUY HOW MANY SHARES OF 'BETELGEUSE,LTD.' AT $ 600
+    YOU NOW OWN  5 ? 1
+?
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  +  .  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  .  +  .  B
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 F  1 G  9 B  9 J  7 B
+
+WHAT IS YOUR MOVE ? 1G
+?
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'CAPELLA FREIGHT CO.'
+
+
+
+
+
+YOUR CURRENT CASH= $ 5480
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 600
+    YOU NOW OWN  1 ? 1
+
+YOUR CURRENT CASH= $ 4880
+
+BUY HOW MANY SHARES OF 'BETELGEUSE,LTD.' AT $ 600
+    YOU NOW OWN  0 ? 1
+
+YOUR CURRENT CASH= $ 4280
+
+BUY HOW MANY SHARES OF 'CAPELLA FREIGHT CO.' AT $ 200
+    YOU NOW OWN  5 ? 1
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  .  +  .  B
+          5   .  .  .  .  .  .  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 2 A  5 F  9 E  7 J  6 F
+
+WHAT IS YOUR MOVE ? 5F
+
+//BUY 1 1 1
+[B a 1]
+[B b 1]
+[B c 1]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  .
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  .  +  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 5 A  8 A  6 B  6 E  2 L
+
+WHAT IS YOUR MOVE ? 2L
+//BUY 1 1 1
+[B a 1]
+[B b 1]
+[B c 1]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  .  +  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 I  8 C  9 A  7 G  2 E
+
+WHAT IS YOUR MOVE ? 4I
+
+//1 1 1
+[B a 1]
+[B b 1]
+[B c 1]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  .  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 C  5 C  1 H  9 I  8 K
+
+WHAT IS YOUR MOVE ? 1H
+
+//1 1 1
+[B a 1]
+[B b 1]
+[B c 1]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  .  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 B  3 H  2 D  9 H  2 E
+
+// Scoreboard below _may_ have been as at previous move (when 1H was entered). Trying here first.
+// Issues! Altair share price is 800. Script says 900. Moving above won't can only mean Altair share price is less.
+// Commenting out for now.
+
+//WHAT IS YOUR MOVE ? S
+//?
+//
+//STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+//'ALTAIR STARWAYS'             900                 4
+//'BETELGEUSE,LTD.'             600                 3
+//'CAPELLA FREIGHT CO.'         300                 8
+
+WHAT IS YOUR MOVE ? 3H
+
+//1 1 1
+[B a 1]
+[B b 1]
+[B c 1]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  .  *  .  .  .
+          7   .  .  .  .  .  .  .  +  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 1 E  9 F  8 H  6 H  3 B
+
+[6h]
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'DENEBOLA SHIPPERS'
+
+
+
+
+
+YOUR CURRENT CASH= $ 1980
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 900
+    YOU NOW OWN  4 ? 1
+
+YOUR CURRENT CASH= $ 1080
+
+BUY HOW MANY SHARES OF 'BETELGEUSE,LTD.' AT $ 600
+    YOU NOW OWN  3 ? 1
+
+YOUR CURRENT CASH= $ 480
+
+BUY HOW MANY SHARES OF 'CAPELLA FREIGHT CO.' AT $ 300
+    YOU NOW OWN  8 ? 1
+
+YOUR CURRENT CASH= $ 180
+
+BUY HOW MANY SHARES OF 'DENEBOLA SHIPPERS' AT $ 700
+    YOU NOW OWN  5 ? 0
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  .  D  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 G  3 D  9 H  9 L  3 J
+
+[7g]
+
+//1 1 1 0
+[B a 1]
+[B b 1]
+[B c 1]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  .  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 J  6 B  3 C  1 I  7 C
+
+[7j]
+
+//0 0 0 0
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  .  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 1 K  5 J  1 J  6 L  5 A
+
+WHAT IS YOUR MOVE ? S
+?
+
+STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+'ALTAIR STARWAYS'             900                 11
+'BETELGEUSE,LTD.'             600                 10
+'CAPELLA FREIGHT CO.'         300                 4
+'DENEBOLA SHIPPERS'           800                 0
+
+[5j]
+
+//0 0 0 0
+[B a 0]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  .
+          2   .  .  .  .  .  .  .  .  *  .  .  +
+          3   .  .  .  .  .  +  .  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  A  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 1 L  2 C  6 E  6 D  8 E
+
+WHAT IS YOUR MOVE ? S
+?
+
+STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+'ALTAIR STARWAYS'             1000                5
+'BETELGEUSE,LTD.'             600                 4
+'CAPELLA FREIGHT CO.'         300                 9
+'DENEBOLA SHIPPERS'           800                 5
+
+WHAT IS YOUR MOVE ? 1L
+?
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'ERIDANI EXPEDITERS'
+
+
+
+
+
+YOUR CURRENT CASH= $ 1615
+
+//0 0 0 0
+[B a 0]
+
+BUY HOW MANY SHARES OF 'ERIDANI EXPEDITERS' AT $ 200
+    YOU NOW OWN  5 ? 0
+?
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  +  .  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  A  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 9 B  6 D  9 D  3 G  9 A
+
+[3G]
+
+ YOUR CURRENT CASH= $ 2655
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 1700
+    YOU NOW OWN  11 ? 0
+
+YOUR CURRENT CASH= $ 2655
+
+BUY HOW MANY SHARES OF 'BETELGEUSE,LTD.' AT $ 600
+    YOU NOW OWN  10 ? 0
+
+YOUR CURRENT CASH= $ 2655
+
+BUY HOW MANY SHARES OF 'CAPELLA FREIGHT CO.' AT $ 300
+    YOU NOW OWN  4 ? 0
+
+YOUR CURRENT CASH= $ 2655
+
+BUY HOW MANY SHARES OF 'DENEBOLA SHIPPERS' AT $ 800
+    YOU NOW OWN  0 ? 0
+
+YOUR CURRENT CASH= $ 2655
+
+BUY HOW MANY SHARES OF 'ERIDANI EXPEDITERS' AT $ 200
+    YOU NOW OWN  0 ? 0
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  .  .
+          4   .  .  .  .  .  .  *  .  A  A  .  B
+          5   .  .  .  .  .  +  .  .  .  A  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 6 K  4 F  1 D  2 D  3 A
+
+[4f]
+
+//0 0 0 0 0
+[B a 0]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  .  .
+          4   .  .  .  .  .  A  *  .  A  A  .  B
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 3 D  4 K  7 E  9 K  2 G
+
+[4k]
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+'BETELGEUSE,LTD.' HAS JUST BEEN MERGED INTO 'ALTAIR STARWAYS'!
+PLEASE NOTE THE FOLLOWING TRANSACTIONS.
+
+  OLD STOCK = 'BETELGEUSE,LTD.'      NEW STOCK = 'ALTAIR STARWAYS'
+
+PLAYER   OLD STOCK   NEW STOCK   TOTAL HOLDINGS     BONUS PAID
+
+andrew    10          5           16                 $ 4285
+
+alex      4           2           7                  $ 1714
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+THE STOCK OF  'ALTAIR STARWAYS'            HAS SPLIT 2 FOR 1 !
+
+
+
+
+
+YOUR CURRENT CASH= $ 9400
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 1500
+    YOU NOW OWN  32 ? 0
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  .  .
+          4   .  .  .  .  .  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  .
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 5 D  5 A  6 L  8 C  2 J
+
+WHAT IS YOUR MOVE ? S
+
+STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+'ALTAIR STARWAYS'             1500                14
+'CAPELLA FREIGHT CO.'         300                 9
+'DENEBOLA SHIPPERS'           800                 5
+'ERIDANI EXPEDITERS'          200                 5
+
+WHAT IS YOUR MOVE ? 6L
+?
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'BETELGEUSE,LTD.'
+
+
+
+
+
+YOUR CURRENT CASH= $ 6019
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  .  .
+          4   .  .  .  .  .  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  .  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 K  6 G  8 A  3 L  2 H
+
+WHAT IS YOUR MOVE ? S
+ STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+'ALTAIR STARWAYS'             1500                32
+'BETELGEUSE,LTD.'             600                 0
+'CAPELLA FREIGHT CO.'         300                 4
+'DENEBOLA SHIPPERS'           800                 0
+'ERIDANI EXPEDITERS'          200                 0
+
+[6g]
+
+YOUR CURRENT CASH= $ 11860
+
+[B a -1]
+[B b -1]
+[B c -1]
+ 
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  .  .
+          4   .  .  .  .  .  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  D  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 6 C  9 L  6 B  2 K  3 K
+[3k]
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  C  C  C  .  .  .  E
+          2   .  .  .  .  .  .  .  .  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  .  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  D  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 6 K  5 B  1 D  2 E  2 H
+
+[2h]
+
+                      SPECIAL ANNOUNCEMENT !!!
+
+
+'CAPELLA FREIGHT CO.' HAS JUST BEEN MERGED INTO 'ALTAIR STARWAYS'!
+PLEASE NOTE THE FOLLOWING TRANSACTIONS.
+
+  OLD STOCK = 'CAPELLA FREIGHT CO.'      NEW STOCK = 'ALTAIR STARWAYS'
+
+PLAYER   OLD STOCK   NEW STOCK   TOTAL HOLDINGS     BONUS PAID
+
+andrew    3           2           33                 $ 750
+
+alex      9           5           19                 $ 2250
+
+
+
+YOUR CURRENT CASH= $ 18115
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 1900
+    YOU NOW OWN  33 ? 0
+
+YOUR CURRENT CASH= $ 18115
+
+BUY HOW MANY SHARES OF 'BETELGEUSE,LTD.' AT $ 600
+    YOU NOW OWN -1 ? 0
+
+YOUR CURRENT CASH= $ 18115
+
+BUY HOW MANY SHARES OF 'DENEBOLA SHIPPERS' AT $ 900
+    YOU NOW OWN  0 ? 0
+
+YOUR CURRENT CASH= $ 18115
+
+BUY HOW MANY SHARES OF 'ERIDANI EXPEDITERS' AT $ 200
+    YOU NOW OWN  0 ? 0
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  .  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  .  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  D  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 1 J  5 C  4 C  3 B  9 J
+[1j]
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  .  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  D  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 H  4 B  9 H  4 E  6 A
+[4e]
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  D  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  .  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 9 F  1 D  7 F  7 C  9 H
+[9h]
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  .  D  D  *  .  .  B
+          7   .  .  .  .  .  .  D  D  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  .  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 A  6 F  8 B  5 B  7 I
+
+[6f]
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+'DENEBOLA SHIPPERS' HAS JUST BEEN MERGED INTO 'ALTAIR STARWAYS'!
+PLEASE NOTE THE FOLLOWING TRANSACTIONS.
+
+  OLD STOCK = 'DENEBOLA SHIPPERS'      NEW STOCK = 'ALTAIR STARWAYS'
+
+PLAYER   OLD STOCK   NEW STOCK   TOTAL HOLDINGS     BONUS PAID
+
+andrew    0           0           33                 $ 0
+
+alex      5           3           22                 $ 9000
+
+
+
+YOUR CURRENT CASH= $ 26140
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  .  A  A  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  .  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 9 J  6 C  8 J  5 C  5 A
+[9j]
+
+[B a 0]
+
+                      MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  .  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  .  A  A  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 F  4 C  9 A  2 A  1 B
+
+[4c]
+
+//may have missed a turn here - doesn't look like it
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  E
+          2   .  .  .  .  .  .  .  A  *  .  .  E
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  .  A  A  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 D  9 E  9 K  8 J  2 K
+
+[2k]
+
+//scrolled off screen
+
+'ERIDANI EXPEDITERS' HAS JUST BEEN MERGED INTO 'ALTAIR STARWAYS'!
+PLEASE NOTE THE FOLLOWING TRANSACTIONS.
+
+  OLD STOCK = 'ERIDANI EXPEDITERS'      NEW STOCK = 'ALTAIR STARWAYS'
+
+PLAYER   OLD STOCK   NEW STOCK   TOTAL HOLDINGS     BONUS PAID
+
+andrew    0           0           33                 $ 0
+
+alex      5           3           25                 $ 2000
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+THE STOCK OF  'ALTAIR STARWAYS'            HAS SPLIT 2 FOR 1 !
+
+
+
+
+
+YOUR CURRENT CASH= $ 32919
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  A
+          2   .  .  .  .  .  .  .  A  *  .  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  .  A  A  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 F  7 C  5 B  3 B  1 A
+
+[7f]
+
+[B a 0]
+
+                      MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  A
+          2   .  .  .  .  .  .  .  A  *  .  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  .  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 F  6 E  3 E  5 H  4 B
+
+[5h]
+
+[B a 0]
+
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  A
+          2   .  .  .  .  .  .  .  A  *  .  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  .  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 6 D  2 G  6 E  7 A  8 E
+
+[8e]
+
+[B a 0]
+                      MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  +  .  A
+          2   .  .  .  .  .  .  .  A  *  .  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  +  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 B  3 A  2 J  1 I  1 C
+
+WHAT IS YOUR MOVE ? S
+?
+
+STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+'ALTAIR STARWAYS'             1750                50
+'BETELGEUSE,LTD.'             600                 5
+
+WHAT IS YOUR MOVE ? 2J
+
+YOUR CURRENT CASH= $ 43719
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  .  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  +  .  .  .  .  .  .  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 B  8 C  3 B  8 K  2 C
+
+WHAT IS YOUR MOVE ? S
+?
+
+STOCK                        PRICE PER SHARE     YOUR HOLDINGS
+'ALTAIR STARWAYS'             2450                66
+'BETELGEUSE,LTD.'             600                -1
+
+[8k]
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  .  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  .  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  +  .  .  .  .  .  +  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 B  2 B  2 A  5 I  8 J
+
+ WHAT IS YOUR MOVE ? 5I
+
+                     SPECIAL ANNOUNCEMENT !!!
+
+
+THE STOCK OF  'ALTAIR STARWAYS'            HAS SPLIT 2 FOR 1 !
+
+
+
+YOUR CURRENT CASH= $ 51494
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 1525
+    YOU NOW OWN  100 ? 0
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  .  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  +  .  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  +  .  .  .  .  .  +  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 L  8 L  2 A  4 D  9 L
+
+WHAT IS YOUR MOVE ? 4D
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  .  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  .  .  +  .  .  .  .  .  +  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 4 B  6 D  8 C  2 F  6 B
+
+WHAT IS YOUR MOVE ? 8C
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  .  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  +  .  .  .  .  .  +  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 2 D  8 J  1 I  7 C  9 L
+[2d]
+
+//first move if not specified
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  +  .  .  .  .  .  +  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 F  9 B  9 I  7 A  7 C
+ [8f]
+
+[B a 0]
+
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  A  A  .  .  .  .  +  .
+          9   .  .  .  .  .  .  .  +  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 8 H  1 D  8 A  6 B  1 B
+[8h]
+
+[B a 0]
+
+                      MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  A  A  .  A  .  .  +  .
+          9   .  .  .  .  .  .  .  A  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 9 D  8 B  5 D  9 F  8 G
+[9d]
+
+[B a 0]
+
+                      MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  .  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  A  A  .  A  .  .  +  .
+          9   .  .  .  +  .  .  .  A  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 2 F  6 D  2 B  2 C  2 G
+[2f]
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  A  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  .  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  A  A  .  A  .  .  +  .
+          9   .  .  .  +  .  .  .  A  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 3 A  3 D  4 B  1 C  5 G
+
+[5g]
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  A  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  A  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  .
+          8   .  .  +  .  A  A  .  A  .  .  +  .
+          9   .  .  .  +  .  .  .  A  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 L  1 C  6 J  8 J  5 E
+[7l]
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  A  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  A  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  B
+          8   .  .  +  .  A  A  .  A  .  .  +  .
+          9   .  .  .  +  .  .  .  A  .  +  .  .
+
+
+alex, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 9 F  8 B  2 A  1 E  9 B
+[9b]
+
+[B a 0]
+                     MAP OF THE GALAXY
+                    *******************
+             A  B  C  D  E  F  G  H  I  J  K  L
+          1   .  .  .  .  .  A  A  A  .  A  .  A
+          2   .  .  .  +  .  A  .  A  *  A  A  A
+          3   .  .  .  .  .  A  A  A  A  .  A  .
+          4   .  .  A  A  A  A  *  .  A  A  A  A
+          5   .  .  .  .  .  A  A  A  A  A  .  *
+          6   .  .  .  .  .  A  A  A  *  .  .  B
+          7   .  .  .  .  .  A  A  A  .  +  .  B
+          8   .  .  +  .  A  A  .  A  .  .  +  .
+          9   .  +  .  +  .  .  .  A  .  +  .  .
+
+
+andrew, HERE ARE YOUR LEGAL MOVES FOR THIS TURN
+
+ 7 I  3 C  2 E  7 C  9 C
+[9c]
+
+                      SPECIAL ANNOUNCEMENT !!!
+
+
+A NEW SHIPPING COMPANY HAS BEEN FORMED !
+IT'S NAME IS  'CAPELLA FREIGHT CO.'
+
+
+
+
+
+YOUR CURRENT CASH= $ 138790
+
+BUY HOW MANY SHARES OF 'ALTAIR STARWAYS' AT $ 2825
+    YOU NOW OWN  132 ? 0
+
+YOUR CURRENT CASH= $ 138790
+
+BUY HOW MANY SHARES OF 'BETELGEUSE,LTD.' AT $ 700
+    YOU NOW OWN -1 ? 0
+
+YOUR CURRENT CASH= $ 138790
+
+BUY HOW MANY SHARES OF 'CAPELLA FREIGHT CO.' AT $ 400
+    YOU NOW OWN  5 ? 0
+
+               THE GAME IS OVER - HERE ARE THE FINAL STANDINGS
+
+
+
+
+
+PLAYER   CASH VALUE OF STOCK    CASH ON HAND
+                                                 NET WORTH
+
+
+andrew   $ 374200               $ 138790         $ 512990
+
+alex     $ 286000               $ 109394         $ 395394
+
+//end
